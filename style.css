@@ -51,6 +51,23 @@ body {
 img {
   max-width: 100%;
   margin: 0;
+<<<<<<< HEAD
   font-weight: 700;
 }
 
+=======
+}
+
+img.responsive {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  img.responsive {
+    display: block;
+  }
+  img {
+    display: none;
+  }
+}
+>>>>>>> responsive
